@@ -7,7 +7,7 @@ The website aligns with updated branding and features a new **CLAT Crash Course 
 
 ## 🔗 Live Demo
 
-👉 [Live Website](https://your-live-site-link.com)  
+👉 [Live Website](https://clatnlti-assignament.vercel.app/)  
 👉 [Original Website](https://www.clatnlti.com/)
 
 ---
