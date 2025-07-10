@@ -1,70 +1,115 @@
-# Getting Started with Create React App
+# CLAT NLTI Website – React Enhanced Version
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a modern, responsive React-based enhancement of the official [CLAT NLTI website](https://www.clatnlti.com/).  
+The website aligns with updated branding and features a new **CLAT Crash Course 2026** section, improved user interface, demo videos, testimonials, and mobile-first design.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🔗 Live Demo
 
-### `npm start`
+👉 [Live Website](https://your-live-site-link.com)  
+👉 [Original Website](https://www.clatnlti.com/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Features
 
-### `npm test`
+- ✅ Fully responsive (Mobile, Tablet, Desktop)
+- 🎯 Redesigned homepage for better UX
+- 🗂️ Individual Course Pages with:
+  - Course Overview
+  - Features (Mentorship, Mocks, Sessions, etc.)
+  - Eligibility, Duration, CTAs (Book Now / Get a Callback)
+- 💥 New CLAT Crash Course 2026 Section:
+  - Timed banner for urgency
+  - Pricing, features, schedule, registration form
+- 🎥 Demo Videos Integration using modals
+- 👨‍🎓 Testimonial Slider with student feedback
+- 🔍 SEO Enhancements (meta tags, schema markup for courses and reviews)
+- ⚡ Performance Optimized (Loads under 3 seconds)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🧑‍💻 Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- React.js (with Create React App)
+- HTML5, CSS3, JavaScript (ES6+)
+- React Router DOM
+- Swiper.js / AOS / React Modal
+- Netlify / Vercel for deployment
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📁 Folder Structure
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+clatassignment/
+├── node_modules/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── CLATDemoVideo.jsx
+│   │   ├── CourseCard.jsx
+│   │   ├── CourseDetailPage.jsx
+│   │   ├── Courses.jsx
+│   │   ├── CrashCourse.jsx
+│   │   ├── Footer.jsx
+│   │   ├── Hero.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── NLUAdmissions.jsx
+│   │   └── Testimonials.jsx
+│   ├── styles/
+│   │   ├── AllCoursesPage.css
+│   │   ├── animations.css
+│   │   ├── CourseDetail.css
+│   │   ├── Courses.css
+│   │   ├── DemoVideos.css
+│   │   ├── globals.css
+│   │   ├── NLUAdmissions.css
+│   │   └── Testimonials.css
+│   ├── App.css
+│   ├── App.js
+│   └── index.js
+├── .gitignore
+├── package-lock.json
+├── package.json
+└── README.md
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 🛠️ Setup Instructions
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# 1. Clone the repository
+git clone https://github.com/SaiSathwikSamudram/clat-nlti-react.git
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# 2. Move into the project directory
+cd clat-nlti-react
 
-### Code Splitting
+# 3. Install dependencies
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# 4. Start the development server
+npm start
 
-### Analyzing the Bundle Size
+# App will run at: http://localhost:3000
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+| Before              | After                                    |
+| ------------------- | ---------------------------------------- |
+| Basic UI            | Trendy React-based UI                    |
+| No Crash Course     | Dedicated CLAT Crash Course 2026 Section |
+| No Testimonials     | Student Testimonials Slider              |
+| No Demo Classes     | Integrated Demo Video Modals             |
+| Average Performance | Loads in under 3 seconds                 |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+🙋‍♂️ Author
+Sai Sathwik Samudram
+Frontend Web Developer
+📧 Email: saisathwik012@gmail.com
+📞 Phone: 7013377564
+📍 Location: East Godavari, Andhra Pradesh
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
